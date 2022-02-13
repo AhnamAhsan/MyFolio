@@ -115,7 +115,8 @@ nav .menu ul li:hover a{
    top:0;
    left: 0;
    z-index: -1;
-}#banner .banner_slider .banner_slider_icon{
+}
+#banner .banner_slider .banner_slider_icon{
    color:#cfc91d;
    width: 50px;
    height: 50px;
@@ -131,12 +132,16 @@ nav .menu ul li:hover a{
    border-radius: 50%;
    opacity: 0;
    visibility: hidden;
-   transform:rotateX(60deg);
+   transform:rotateX(90deg);
+   transition: 1s;
 }
 #banner:hover .banner_slider .banner_slider_icon{
    opacity: 1;
    visibility: visible;
    transform:rotateX(0);
+}
+#banner:hover .banner_slider .banner_slider_icon:hover{
+   border-color: #cfc91d;
 }
 #banner .banner_slider .banner_slider_dots{
    text-align: center;
@@ -202,7 +207,7 @@ nav .menu ul li:hover a{
  
 #banner .banner_slider_item .banner_content img{
    margin-top: 50px;
-   margin-left: 485px; 
+   margin-left: 480px; 
    margin-bottom: 70px;
 }
  

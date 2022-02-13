@@ -42,8 +42,9 @@ $(function () {
       nextArrow: '<i class="banner_slider_icon fas fa-arrow-right"></i>',
       dots: true,
       dotsClass: 'banner_slider_dots',
+      fade:true,
       autoplay: true,
-      autoplaySpeed: 500,
-      speed:5000,
+      autoplaySpeed: 5000,
+      speed:2000,
    })
   })
